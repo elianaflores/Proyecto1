@@ -1,3 +1,6 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 header{
 	background:url("img/bgheader.jpg") ;
 	height: 659px;
@@ -14,10 +17,13 @@ ul li{
 	float: left;
 
 }
+.fa-home:before{
+	content: "\f015"
+}
 li a {
 	color: white;
 	font-size: 14px;
-	padding: 8px;
+	padding: 8px 6px;
 	display: block;
 	border-top: 5px solid transparent;
 }
@@ -35,10 +41,78 @@ li a {
 	padding: 7px 14px;
 	font-size: 16px;
 	color: #111111;
+	width: 100%;
+    margin-top: 5px;
 
+}
+#center-header{
+	height: 556px;
 
 }
 
+#centradito{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#centradito h1{
+	color:#fff;
+	font-weight: bold;
+	font-size: 55px;
+}
+#centradito a{
+	background:#54d154;
+	color:#fff;
+	text-align: center;
+	display: block;
+	width: 205px;
+	height: 49px;
+	border-radius: 30px;
+	padding: 6px 0;
+	font-weight: normal;
+	font-size: 21px;
+	transition: 0.5s ease all;
+
+}
+#centradito a:hover {
+	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
+}
+.boton1{
+	background: rgba(217,216,216,0.85);
+	border: none;
+	border-radius: 15px;
+	height: 26px;
+	padding: 7px 14px;
+	font-size: 16px;
+	color: #111111;
+	width: 121px;
+    margin-top: 5px;
+}
+
+.seccion2{
+	background: #fff;
+	height: 578px;
+}
+.formaDeParrafo1{
+	text-align: center;
+	font-size: ;/*tamaño del texto*/
+	padding-top: 43px;
+	color: #828181;
+}
+.formaDeParrafo2{
+	text-align: center;
+	font-size: 16px;/*tamaño del texto*/
+	padding-top: ;
+	color: #828181;
+}
+hr{
+	background:#828181;
+	height: 2px;
+	width: 43px;
+}
 
 /*.boton{
 	display: inline-block;
