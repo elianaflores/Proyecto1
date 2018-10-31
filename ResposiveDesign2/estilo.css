@@ -45,6 +45,8 @@ li a {
     margin-top: 5px;
 
 }
+
+
 #center-header{
 	height: 560px;
 
@@ -80,7 +82,7 @@ li a {
 	background: #f34d04;
 	transform: scale(1.05);
 }
-.boton1{
+.boton1 , .botonsec3{
 	background: rgba(217,216,216,0.85);
 	border: none;
 	border-radius: 15px;
@@ -100,12 +102,12 @@ li a {
 	text-align: center;
 	font-size: ;/*tamaño del texto*/
 	padding-top: 43px;
-	color: #828181;
+	color: #939292;
 }
 .formaDeParrafo2{
 	text-align: center;
 	font-size: 16px;/*tamaño del texto*/
-	color: #828181;
+	color: #cfcccc;
 }
 hr{
 	background:#828181;
@@ -158,11 +160,16 @@ hr{
 .margen1{
 	padding: 16px;
 }
+.medida{
+	width: 278px;
+	margin-top: 25px;
+}
 .center{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .seccion3{
@@ -173,8 +180,68 @@ hr{
 .texto3{
 	color: #207b20;
 }
+.texto4{
+	background: #207b20;
+}
+
+.botton1{
+	border-radius: 20px;
+	width: 277px;
+	background: white;		
+}
+
+.botton1 li a{
+	color: #2b9b2b;
+	margin-right: 20px;
+}
+
+.botonA a{
+	color: #fff!important;
+	background: #2b9b2b;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.botonB a{
+	border-right: 1px solid #2b9b2b;
+	color: #207b20;
+}
+.estiloFoto1{
+	height: 452px;
 
 
+}
+.estiloA{
+	padding: 15px;
+}
+
+.boton .botonsec3{
+	background: #2b9b2b;
+	width: 190px;
+	height: 40px;
+	border-radius: 40px;
+	color: white;
+}
+.seccion2 .seccion4{
+	height: 345px;
+}
+.formaDeParrafo3{
+	color: #444444;
+	font-size: 15px;
+	padding: 70px;
+}
+/*
+.botonA{
+	background: #2b9b2b;
+	border-radius: : 20px;
+
+}
+.botonB{
+	text-decoration: none;
+	border-right: 1px #2b9b2b;
+}
+.botonC{
+	text-decoration: none;
+}
 /*.boton{
 	display: inline-block;
 	text-align:left;
