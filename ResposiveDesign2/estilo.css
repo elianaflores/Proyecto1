@@ -213,6 +213,9 @@ hr{
 .estiloA{
 	padding: 15px;
 }
+.estiloB{
+	padding: 1px;
+}
 
 .boton .botonsec3{
 	background: #2b9b2b;
@@ -222,44 +225,30 @@ hr{
 	color: white;
 }
 .seccion2 .seccion4{
-	height: 345px;
+	height: 365px;
 }
 .formaDeParrafo3{
 	color: #444444;
 	font-size: 15px;
 	padding: 70px;
 }
-/*
-.botonA{
-	background: #2b9b2b;
-	border-radius: : 20px;
 
+.alturaLetter{
+    height: 285px;
+    color: #575757!important;
 }
-.botonB{
-	text-decoration: none;
-	border-right: 1px #2b9b2b;
-}
-.botonC{
-	text-decoration: none;
-}
-/*.boton{
-	display: inline-block;
-	text-align:left;
-	float: left;
-	margin-right: 26px;
-}
-.boton a{
-	padding: 10px 0;
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-decoration: none;
-	color: #fff;
+.altura_botton{
+    height: 105px;
+    background: #e0dfdf;
 }
 
-/*.boton a:hover{
-	background: #535353;
-	color: #f9f9cc;
-	transform: scale(1.1);*/
+.seccion5{
+	height: 500px;
+	background: #f2f1f1;
+}
+
+.testimonials{
+	color: #8f8f8f;
+	text-align: center;
 
 }
