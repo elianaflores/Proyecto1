@@ -15,7 +15,6 @@ ul{
 ul li{
 	display: block;
 	float: left;
-
 }
 .fa-home:before{
 	content: "\f015"
@@ -23,13 +22,11 @@ ul li{
 li a {
 	color: white;
 	font-size: 14px;
-	/*padding: 3px 3px;*/
 	display: block;
 	border-top: 5px solid transparent;
 }
 .mas{
-	padding: 5px 5px;
-	
+	padding: 5px 5px;	
 	display: block;
 }
 
@@ -39,25 +36,28 @@ li a {
 	color: white;
 }
 .buscador{
-	background: rgba(217,216,216,0.85);
-	border: none;
-	border-radius: 15px;
-	height: 27px;
-	/*padding: 7px 0px;*/
+	background: rgba(217,216,216,0.05);
 	font-size: 16px;
-	color: #111111;
-	width: 100%;
-
-    
+	color: #262626;
+	padding: 5px 5px;
+	border-radius: 20px;
+	border-style: none;
+    height: 27px;
+    width: 160px;
+}
+.centerlupa{
+	padding-top: 5px;
+	color: c;
 }
 .buscadorx{
 	display: flex;
 	flex-direction: row;
-	/*padding: 5px 5px;*/
-	padding-right: -205px;
+	padding: 5px 5px;
 	background: rgba(217,216,216,0.85);
-	color: #111111;
-
+	color: #262626;
+	border-radius: 20px;
+	border-style: none;
+	width: 195px;
 }
 .buscador2{
 	background: rgba(217,216,216,0.60);
@@ -83,7 +83,6 @@ li a {
 
 #center-header{
 	height: 560px;
-
 }
 
 #centradito{
@@ -109,7 +108,6 @@ li a {
 	font-weight: normal;
 	font-size: 21px;
 	transition: 0.5s ease all;
-
 }
 #centradito a:hover {
 	text-decoration: none;
@@ -169,8 +167,7 @@ hr{
 	text-align: center;
 	color: #828181;
 	width: 268px;
-	padding-top: 23px;
-	
+	padding-top: 23px;	
 }
 .boton{
 	background: #54d154;
@@ -194,26 +191,17 @@ hr{
 	width:100%!important;
 	height:32px ;
 	padding-top: 3px;
-
-
 }
-
-
 
 .imagen2{
 	color: #54d154;
-	
-	/*height: 36px;
-	width: 136px;*/
 	margin-top: 36px;
-	margin-left: 28px;
-	
+	margin-left: 28px;	
 }
 .margen1{
 	padding: 16px;
 	padding-top: 36px;
 }
-
 .margen1x{
 	padding-left: 10px;
 }
@@ -226,7 +214,6 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .textslider{
 	color: #444444;
@@ -242,19 +229,16 @@ hr{
 .texto4{
 	background: #207b20;
 }
-
 .botton1{
 	border-radius: 20px;
 	width: 277px;
 	background: white;	
 	border-top:1px solid #2b9b2b ;	
 }
-
 .botton1 li a{
 	color: #2b9b2b;
 	margin-right: 13px;
 	height: 40px;
-
 }
 
 .botonA a{
@@ -265,25 +249,21 @@ hr{
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 9px;
+	padding-top: 5px;
 }
 .botonB a{
 	border-right: 1px solid #2b9b2b;
 	color: #207b20;
 	padding-right: 20px;
 	padding-bottom: 10px;
-	padding-top: 9px;
-
-
+	padding-top: 5px;
 }
 
 .botonC a{
-	padding-top: 9px;
+	padding-top: 5px;
 }
 .estiloFoto1{
 	height: 452px;
-
-
 }
 .estiloA{
 	padding: 15px;
@@ -295,8 +275,7 @@ hr{
 
 .estiloB{
 	display: flex;
-	align-items: center;
-	
+	align-items: center;	
 }
 .boton .botonsec3{
 	background: #2b9b2b;
@@ -359,12 +338,10 @@ hr{
     margin: auto;
 }
 
-
 .autor_testimonial{
 	display: flex;
 	align-items: center;
 }
-
 
 .derecho_autor h3{
 	color: #444;
@@ -389,7 +366,6 @@ hr{
 }
 
 .botonsec6{
-
 	background: #c5e9c5;
 	border-radius: 40px;
     display: flex;
@@ -402,7 +378,6 @@ hr{
     margin-left: 26px;
 }
 .botonsec6a{
-
 	background: #c5e9c5;
 	border-radius: 40px;
     display: flex;
@@ -423,14 +398,10 @@ hr{
 	color: #e9508b;
 }
 
-
-
 .fondo2{
 	background: #0061ff;
 	border-radius: 12px;
 	padding: 4px 4px;
-	/*width: 21px;
-	height: 20px;*/
 	font-size: 12px;
 	color: white;
 }
@@ -438,8 +409,6 @@ hr{
 	background: #0061ff;
 	border-radius: 12px;
 	padding: 4px 7px;
-	/*width: 21px;
-	height: 20px;*/
 	font-size: 12px;
 	color: white;
 }
@@ -447,8 +416,6 @@ hr{
 	background: #00aced;
 	border-radius: 12px;
 	padding: 4px 4px;
-	/*width: 21px;
-	height: 20px;*/
 	font-size: 13px;
 	color: white;
 }
@@ -460,13 +427,11 @@ hr{
 .seccion8{
 	height: 439px;
 	background: #333333;
-
 }
 .seccion9{
 	height: 150px;
 	background:#222222 ;
 }
-
 
 .container-fluid{
 	width: 100%;
@@ -514,8 +479,6 @@ hr{
 	font-size:13px;
 	color:white ;	
 	border-radius: 5px;	
-	height: 20px;
-
 	font-weight: 400;
 	text-align: center;
 }
@@ -527,9 +490,6 @@ hr{
 	color:white ;
 	text-align: center;	
 	border-radius: 5px;	
-	height: 20px;
-
-
 }
 
 .textsecc83c{
@@ -539,8 +499,6 @@ hr{
 	color:white ;
 	text-align: center;	
 	border-radius: 5px;	
-	height: 20px;
-
 }
 
 .textsecc83d{
@@ -550,33 +508,22 @@ hr{
 	color:white ;
 	text-align: center;	
 	border-radius: 5px;	
-	height: 20px;
-
 }
 
 .contenedorsecc8{
-width:290px ;
-height:56px ;
-margin-top: 8px;
+	width:290px ;
+	height:56px ;
+	margin-top: 8px;
 }
 .derecho_autor1 .derecho_autor{
 	font-size: 12px;
-
 }
-/*.center3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-}*/
 .lineasecc8{
 	background: #dddddd;
 	width: 30px;
 	height: 3px;
 }
-
-
 .formaDesec9{
 	text-align: center;
 	font-size:15px;/*tamaño del texto*/
