@@ -388,6 +388,17 @@ hr{
     width: 77px;
 }
 
+.botonsec6ax{
+	background: #e6e7e6;
+	border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    height: 30px;
+    width: 77px;
+}
+
 .fondoicono{
     display: flex;
     align-items: center;
@@ -502,7 +513,7 @@ hr{
 }
 
 .textsecc83d{
-	background: #ffba00;
+	background: #f34d04;
 	width: 75px;
 	font-size:13px;
 	color:white ;
@@ -524,6 +535,8 @@ hr{
 	width: 30px;
 	height: 3px;
 }
+
+
 .formaDesec9{
 	text-align: center;
 	font-size:15px;/*tamaño del texto*/
